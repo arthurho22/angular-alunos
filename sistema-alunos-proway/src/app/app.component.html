@@ -1,0 +1,37 @@
+<div class="container">
+
+
+
+
+<header>
+  <h1>{{ title }}</h1>
+</header>
+
+<main>
+
+
+
+  <div class="cards" *ngif="exibicao === cards"></div>
+  <app-studant [aluno]="listaAlunos[0]"></app-studant>
+  <app-studant [aluno]="listaAlunos[1]"></app-studant>
+  <app-studant [aluno]="listaAlunos[2]"></app-studant>
+
+<div class="lista" *ngif = "lista">
+<app-student-list></app-student-list>
+</div>
+
+
+<div>
+  <button (click)="alterarOrdemExibicao()">Cards</button>
+</div>
+
+
+
+
+
+
+</main>
+
+<footer>
+  <p>- Desenvolvido por Alunos Proway -</p>
+</footer>

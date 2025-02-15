@@ -1,0 +1,41 @@
+.card {
+    border: solid 1px silver;
+    width: 230px;
+    padding: 12px;
+    margin: 0 8px;
+}
+
+.card h3 {
+    text-align: center;
+    margin: 0 12px;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card footer {
+    text-align: center;
+    margin-top: 12px;
+
+}
+
+ .aprovação {
+    background-color: silver;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.aprovado {
+    background-color: green;
+}
+
+.reprovado {
+    background-color: red;
+}
+
